@@ -1,75 +1,115 @@
 body {
     margin: 0;
+    overflow: hidden;
 }
-@font-face {
-    font-family: "Asche";
-    src: url("Myra 4F Caps Bold.otf") format("opentype");
-}
+/* @font-face {
+    font-family: "???";
+    src: url("???") format("opentype");
+} */
 .background_image {
     height: 100vh;
     width: 100vw;
     /* background-color: orange; */
     /* background: url(bg.jpg), url(face.jpg), linear-gradient(90deg, firebrick, steelblue);
     background-blend-mode: overlay, multiply; */
-    background: url(bg.jpg), linear-gradient(90deg, firebrick, steelblue);
-    /* background-blend-mode: overlay, multiply; */
+    background: url(rust.jpg), linear-gradient(90deg, rgba(255, 255, 255, 0.75), rgba(0, 0, 0, 0.75));
+    background-blend-mode: color-burn, color-burn;
     background-size: cover;
+    filter: grayscale(20%)
+}
+.div_contact {
+    font-family: 'Cochin';
+    font-size: 1vw;
+    color: wheat;
+    position: absolute;
+    top: .5vw;
+    left: 60vw;
+}
+#img_mail {
+    width: 1vw;
 }
 .div_D {
     height: 100vh;
     width: 50vw;
     position: absolute;
-    top: 0px;
-    left: 0px;
+    top: -21vw;
+    left: 1.5vw;
     margin: 0;
     padding: 0;
-    text-align: center;
-    font-family: 'Myra 4F Caps';
-    font-size: 100vh;
-    font-weight: bolder;
-    color: rgba(255, 255, 255, .5);
+    text-align: right;
+    font-family: 'Cochin';
+    /* font-family: 'Imprint MT Shadow';  */
+    font-size: 50vw;
+    /* font-weight: bold; */
+    color: rgba(255, 240, 200, 0.6);
     /* text-transform: uppercase; */
     /* text-shadow: 0px 5px 10px rgba(0, 0, 0, 1); */
-    mix-blend-mode: darken;
-    background: rgba(0, 0, 0, 1)
+    mix-blend-mode: overlay;
+    /* background: rgba(0, 0, 0, 1); */
+    /* -moz-transform: scale(-1, -1);
+    -webkit-transform: scale(-1, -1);
+    -o-transform: scale(-1, -1);
+    -ms-transform: scale(-1, -1);
+    transform: scale(-1, -1); */
+    /* border: solid red 1px; */
 }
 .div_M {
     height: 100vh;
-    width: 50vw;
+    width: 62vw;
     position: absolute;
-    top: 0px;
-    left: 50vw;
+    top: 11vw;
+    left: 41vw;
     margin: 0;
     padding: 0;
-    text-align: center;
-    font-family: 'Myra 4F Caps';
-    font-size: 100vh;
-    font-weight: bolder;
-    color: rgba(255, 255, 255, .5);
-    mix-blend-mode: darken;
-    background: rgba(0, 0, 0, 1);
-    -moz-transform: scale(-1, 1);
+    text-align: left;
+    font-family: 'Cochin';
+    /* font-family: 'Rockwell'; */
+    /* font-family: 'Palatino'; */
+    /* font-family: 'Optima'; */
+    font-size: 50vw;
+    /* font-weight: bolder; */
+    color: rgba(255, 240, 200, 0.6);
+    mix-blend-mode: overlay;
+    /* background: rgba(0, 0, 0, 1); */
+    /* -moz-transform: scale(-1, 1);
     -webkit-transform: scale(-1, 1);
     -o-transform: scale(-1, 1);
     -ms-transform: scale(-1, 1);
-    transform: scale(-1, 1);
+    transform: scale(-1, 1); */
+    /* border: solid green 1px; */
 }
-.text_design {
+.div_form {
     position: absolute;
-    top: 40%;
-    right: 20%;
+    top: 19vw;
+    left: -6vw;
     margin: 0;
     padding: 0;
+    font-family: 'Cochin';
     text-align: center;
-    font-size: 25vw;
-    color: rgba(255, 255, 255, 0.2);
+    font-size: 20vw;
+    color: rgba(0, 0, 0, 0.15);
     /* text-transform: uppercase; */
     /* text-shadow: 0px 5px 10px rgba(0, 0, 0, 1); */
-    mix-blend-mode: difference;
-    background: rgba(0, 0, 0, 1)
+    mix-blend-mode: darken;
+    /* background: rgba(0, 0, 0, 1) */
 }
-.div_portfolio {
-    margin-top: 40vh;
+.div_function {
+    position: absolute;
+    top: 1vw;
+    left: 46vw;
+    margin: 0;
+    padding: 0;
+    font-family: 'Cochin'; 
+    text-align: center;
+    font-size: 20vw;
+    color: rgba(0, 0, 0, 0.15);
+    /* text-transform: uppercase; */
+    /* text-shadow: 0px 5px 10px rgba(0, 0, 0, 1); */
+    mix-blend-mode: darken;
+    /* background: rgba(0, 0, 0, 1) */
+}
+/* .div_portfolio {
+    margin-top: 40vw;
     background-size: contain;
     background: black;
     display: flex;
@@ -79,22 +119,95 @@ body {
     margin-right: 2vw;
     float: left;
     border-radius: 50%;
-}
-.div_bug {
-    /* position: relative; */
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-weight: bold;
+    border: solid white 2px;
+} */
+.div_bug_1 {
+    position: absolute;
+    top: 10vw;
+    left: 39vw;
+    font-family: 'Franklin Gothic Book';
+    /* font-weight: bold; */
     z-index: 1;
-    width: 12vw;
-    height: 12vw;
-    background-image: url(bug_01.jpg);
+    width: 10vw;
+    height: 10vw;
+    background-image: url(cryptocurious.jpg);
     background-size: contain;
     text-align: center;
-    line-height: 12vw;
+    line-height: 23vw;
     float: left;
-    font-size: 3vw;
-    border: solid red 5px;
-    border-radius: 50%;
+    font-size: 1.25vw;
+    border: solid  rgba(255, 255, 255, 1) 1px;
+    border-bottom-left-radius: 50%;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    color: white;
+    text-shadow: 0 0 10px black;
+    /* -moz-box-shadow: 0 0 30px 0px red;
+    -webkit-box-shadow: 0 0 30px 0px red; */
+}
+.div_bug_2 {
+    position: absolute;
+    top: 10vw;
+    left: 51vw;
+    font-family: 'Franklin Gothic Book';
+    /* font-weight: bold; */
+    z-index: 1;
+    width: 10vw;
+    height: 10vw;
+    background-image: url(brandt.jpg);
+    background-size: contain;
+    text-align: center;
+    line-height: 23vw;
+    float: left;
+    font-size: 1.25vw;
+    border: solid  rgba(255, 255, 255, 1) 1px;
+    border-bottom-right-radius: 50%;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    color: white;
+    text-shadow: 0 0 10px black;
+}
+.div_bug_3 {
+    position: absolute;
+    top: 22vw;
+    left: 39vw;
+    font-family: 'Franklin Gothic Book';
+    /* font-weight: bold; */
+    z-index: 1;
+    width: 10vw;
+    height: 10vw;
+    background-image: url(brakumo.jpg);
+    background-size: contain;
+    text-align: center;
+    line-height: 23vw;
+    float: left;
+    font-size: 1.25vw;
+    border: solid  rgba(255, 255, 255, 1) 1px;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+    border-top-left-radius: 50%;
+    color: white;
+    text-shadow: 0 0 10px black;
+}
+.div_bug_4 {
+    position: absolute;
+    top: 22vw;
+    left: 51vw;
+    font-family: 'Franklin Gothic Book';
+    /* font-weight: bold; */
+    z-index: 1;
+    width: 10vw;
+    height: 10vw;
+    background-image: url(memory-js.jpg);
+    background-size: contain;
+    text-align: center;
+    line-height: 23vw;
+    float: left;
+    font-size: 1.25vw;
+    border: solid  rgba(255, 255, 255, 1) 1px;
+    border-top-right-radius: 50%;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
     color: white;
     text-shadow: 0 0 10px black;
 }
