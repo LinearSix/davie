@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="parallax.css" charset="utf-8">
+    <title>Document</title>
+</head>
+<body>
+    <div class="debug">
+        <label><input type="checkbox"> Debug</label>
+    </div>
+    <div class="demo__info">
+        Pure CSS parallax scroll demo #3 by Keith Clark. Please read the <a href="../">blog post</a> for more information.
+    </div>
+    <div class="parallax">
+        <div id="group1" class="parallax__group">
+            <div class="parallax__layer parallax__layer--base">
+                <div class="title">Group 1 Base Layer</div>
+            </div>
+        </div>
+        <div id="group2" class="parallax__group">
+            <div class="parallax__layer parallax__layer--base">
+                <div class="title">Group 2 Base Layer</div>
+            </div>
+            <div class="parallax__layer parallax__layer--back">
+                <div class="title">Group 2 Background Layer</div>
+            </div>
+        </div>
+        <div id="group3" class="parallax__group">
+            <div class="parallax__layer parallax__layer--fore">
+                <div class="title">Group 3 Foreground Layer</div>
+            </div>
+            <div class="parallax__layer parallax__layer--base">
+                <div class="title">Group 3 Base Layer</div>
+            </div>
+        </div>
+        <div id="group4" class="parallax__group">
+            <div class="parallax__layer parallax__layer--base">
+                <div class="title">Group 4 Base Layer</div>
+            </div>
+            <div class="parallax__layer parallax__layer--back">
+                <div class="title">Group 4 Background Layer</div>
+            </div>
+            <div class="parallax__layer parallax__layer--deep">
+                <div class="title">Group 4 Deep Background Layer</div>
+            </div>
+        </div>
+        <div id="group5" class="parallax__group">
+            <div class="parallax__layer parallax__layer--fore">
+                <div class="title">Group 5 Foreground Layer</div>
+            </div>
+            <div class="parallax__layer parallax__layer--base">
+                <div class="title">Group 5 Base Layer</div>
+            </div>
+        </div>
+        <div id="group6" class="parallax__group">
+            <div class="parallax__layer parallax__layer--back">
+                <div class="title">Group 6 Background Layer</div>
+            </div>
+            <div class="parallax__layer parallax__layer--base">
+                <div class="title">Group 6 Base Layer</div>
+            </div>
+        </div>
+        <div id="group7" class="parallax__group">
+            <div class="parallax__layer parallax__layer--base">
+                <div class="title">Group 7 Base Layer</div>
+            </div>
+        </div>
+    </div>
+    <script>
+        var debugInput = document.querySelector("input");
+        function updateDebugState() {
+            document.body.classList.toggle('debug-on', debugInput.checked);
+        }
+        debugInput.addEventListener("click", updateDebugState);
+        updateDebugState();
+    </script>
+</body>
+</html>
