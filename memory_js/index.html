@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="memoryGame.css" charset="utf-8">
+  <title>JavaScipt Memory Game</title>
+</head>
+<body>
+      <h1>Memory Game</h1>
+      <h3></h3>
+      <div class="container">
+        <div data-answer=""></div>
+        <div data-answer=""></div>
+        <div data-answer=""></div>
+        <div data-answer=""></div>
+        <div data-answer=""></div>
+        <div data-answer=""></div>
+        <div data-answer=""></div>
+        <div data-answer=""></div>
+        <div data-answer=""></div>
+        <div data-answer=""></div>
+        <div data-answer=""></div>
+        <div data-answer=""></div>
+        <div data-answer=""></div>
+        <div data-answer=""></div>
+        <div data-answer=""></div>
+        <div data-answer=""></div>
+      </div>
+      <div id="reset">
+        <a href="index.html"><button>Reset</button></a>
+      </div>
+  <script>
+  function initialize() {
+
+// CREATE ARRAY OF TILES
+tileArray = [
+  `0`, `1`, `2`, `3`, `4`, `5`, `6`, `7`,
+  `8`, `9`, `10`, `11`, `12`, `13`, `14`, `15`
+];
+
+// SHUFFLE ARRAY
+let myShuffle = function (tiles) {
+  // console.log(arg);
+      for (let i = 0; i < tiles.length; i++) {
+          let aux;
+          let rndPos;
+          if (Math.random() < 0.5) {
+              aux = tiles[i];
+              rndPos = Math.floor(Math.random()) * tiles.length;
+              tiles[i] = tiles[rndPos];
+              tiles[rndPos] = aux;
+          };
+      };
+      return tiles;
+  };
+
+  // POPULATE DIVS WITH SHUFFLED ARRAY
+  shuffledArray = myShuffle(myShuffle(myShuffle(tileArray)));
+  tileDivs = document.getElementsByClassName(`container`);
+  let clickCount = 0;
+  h3 = document.getElementsByTagName('h3')[0];
+  h3.innerHTML = `Click Count: ${clickCount}`; 
+  let setCard;
+  // console.log(tileDivs[0].children[0]);
+  for (let card in shuffledArray) {
+    setCard = tileDivs[0].children[card];
+    setCard.setAttribute(`data-answer`, `${shuffledArray[card]}`);
+    setCard.setAttribute(`id`, `${shuffledArray[card]}`);
+  };
+
+  // EVENT LISTENER FOR CLICKED TILES
+  let guessCount = 0;
+  let guessOne;
+  let resetArray = [];
+  const divChilderen = document.getElementsByClassName(`container`)[0];
+      divChilderen.addEventListener(`click`, (ev) => {
+        let id = ev.target.id;
+        if (id !== 'none') {
+          clickCount ++;
+          h3.innerHTML = `Click Count: ${clickCount}`;
+          if (guessCount === 0) {
+            guessOne = id;
+            ev.target.style.backgroundImage = `url(./${id}.jpg)`;
+            guessCount = 1;
+            resetArray.push(guessOne);
+          } else if (guessCount === 1) {
+            ev.target.style.backgroundImage = `url(./${id}.jpg)`;
+            if (id - guessOne === 8 || id - guessOne === -8) {
+              // alert(`IT'S A MATCH!;`)
+              ev.target.id = 'none';
+              let divToNone = document.getElementById(guessOne);
+              let idToNone = divToNone.id;
+              divToNone.id = 'none';
+              console.log(`idToNone: ${idToNone}`);
+              guessCount = 0;
+              resetArray = [];
+            } else {
+              resetArray.push(id)
+              console.log('resetArray: ' + resetArray)
+              const secondClick = setTimeout(() => {
+                guessCount = 0;
+                cardTimeOut(resetArray);
+              }, 1000)
+            }
+          };
+        };
+      });
+
+  // CALLED 1 SECOND AFTER 2ND CARD IT CLICKED
+  // feed an array of matched ids not to flip back
+  function cardTimeOut(resetArr) {
+    for (let item in resetArr) {
+      console.log(resetArr[item]);
+      resetItem = document.getElementById(resetArr[item]);
+      resetItem.style.backgroundImage = `url(./cardBack.png)`;
+      resetArray = []
+    };
+  };
+};
+
+window.onload = initialize;
+  </script>
+</body>
+</html>

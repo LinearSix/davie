@@ -12,10 +12,11 @@ body {
     /* background-color: orange; */
     /* background: url(bg.jpg), url(face.jpg), linear-gradient(90deg, firebrick, steelblue);
     background-blend-mode: overlay, multiply; */
-    background: url(rust.jpg), linear-gradient(90deg, rgba(255, 255, 255, 0.75), rgba(0, 0, 0, 0.75));
-    background-blend-mode: color-burn, color-burn;
+    background: url(rust.jpg), linear-gradient(0deg, rgba(0, 0, 0, 0.75), rgba(255, 255, 255, 0.75), rgba(0, 0, 0, 0.75));
+    background-blend-mode: multiply, multiply;
     background-size: cover;
-    filter: grayscale(50%)
+    background-repeat: no-repeat;
+    filter: grayscale(50%);
 }
 .div_contact_container {
     position: absolute;
@@ -40,10 +41,11 @@ body {
     top: 0vw;
     left: 0px;
     white-space: nowrap;
+    text-shadow: 0 0 25px black;
     /* border: solid blue 1px; */
 }
 .div_contact_tear {
-    font-family: 'Franklin Gothic Book';
+    /* font-family: 'Franklin Gothic Book'; */
     width: 80px;
     height: 80px;
     float: left;
@@ -53,7 +55,7 @@ body {
     margin: 2px;
     width: 30px;
     height: 30px;
-    background-image: url(mail_tan.png);
+    background-image: url(mail.png);
     background-size: contain;
     float: left;
     border: solid  rgba(255, 255, 255, 1) 1px;
@@ -65,7 +67,7 @@ body {
     margin: 2px;
     width: 30px;
     height: 30px;
-    background-image: url(mail_tan.png);
+    background-image: url(document.png);
     background-size: contain;
     float: left;
     border: solid  rgba(255, 255, 255, 1) 1px;
@@ -89,7 +91,7 @@ body {
     margin: 2px;
     width: 30px;
     height: 30px;
-    background-image: url(mail_tan.png);
+    background-image: url(linkedin.png);
     background-size: contain;
     float: left;
     border: solid  rgba(255, 255, 255, 1) 1px;
@@ -113,7 +115,7 @@ body {
     /* font-family: 'Imprint MT Shadow';  */
     font-size: 50vw;
     /* font-weight: bold; */
-    color: rgba(255, 240, 200, 0.6);
+    color: rgba(255, 240, 200, 0.15);
     /* text-transform: uppercase; */
     /* text-shadow: 0px 5px 10px rgba(0, 0, 0, 1); */
     mix-blend-mode: overlay;
@@ -140,7 +142,7 @@ body {
     /* font-family: 'Optima'; */
     font-size: 50vw;
     /* font-weight: bolder; */
-    color: rgba(255, 240, 200, 0.6);
+    color: rgba(255, 240, 200, 0.15);
     mix-blend-mode: overlay;
     /* background: rgba(0, 0, 0, 1); */
     /* -moz-transform: scale(-1, 1);
@@ -152,14 +154,14 @@ body {
 }
 .div_form {
     position: absolute;
-    top: 19vw;
-    left: -6vw;
+    top: 22vw;
+    left: -3vw;
     margin: 0;
     padding: 0;
     font-family: 'Cochin';
     text-align: center;
-    font-size: 20vw;
-    color: rgba(0, 0, 0, 0.15);
+    font-size: 15vw;
+    color: rgba(0, 0, 0, 0.065);
     /* text-transform: uppercase; */
     /* text-shadow: 0px 5px 10px rgba(0, 0, 0, 1); */
     mix-blend-mode: darken;
@@ -167,14 +169,14 @@ body {
 }
 .div_function {
     position: absolute;
-    top: 1vw;
+    top: .5vw;
     left: 46vw;
     margin: 0;
     padding: 0;
     font-family: 'Cochin'; 
     text-align: center;
-    font-size: 20vw;
-    color: rgba(0, 0, 0, 0.15);
+    font-size: 16vw;
+    color: rgba(0, 0, 0, 0.065);
     /* text-transform: uppercase; */
     /* text-shadow: 0px 5px 10px rgba(0, 0, 0, 1); */
     mix-blend-mode: darken;
@@ -186,7 +188,6 @@ body {
     left: 39vw;
     font-family: 'Franklin Gothic Book';
     /* font-weight: bold; */
-    z-index: 1;
     width: 10vw;
     height: 10vw;
     background-image: url(brakumo.jpg);
@@ -203,6 +204,10 @@ body {
     text-shadow: 0 0 10px black;
     -moz-box-shadow: 0 0 100px 0px black;
     -webkit-box-shadow: 0 0 100px 0px black;
+    filter: contrast(75%);
+}
+.div_bug_1:hover {
+    filter: contrast(100%);
 }
 .div_bug_2 {
     position: absolute;
@@ -210,7 +215,6 @@ body {
     left: 51vw;
     font-family: 'Franklin Gothic Book';
     /* font-weight: bold; */
-    z-index: 1;
     width: 10vw;
     height: 10vw;
     background-image: url(memory-js.jpg);
@@ -227,6 +231,10 @@ body {
     text-shadow: 0 0 10px black;
     -moz-box-shadow: 0 0 100px 0px darkgray;
     -webkit-box-shadow: 0 0 100px 0px darkgray;
+    filter: contrast(75%);
+}
+.div_bug_2:hover {
+    filter: contrast(100%);
 }
 .div_bug_3 {
     position: absolute;
@@ -234,7 +242,6 @@ body {
     left: 39vw;
     font-family: 'Franklin Gothic Book';
     /* font-weight: bold; */
-    z-index: 1;
     width: 10vw;
     height: 10vw;
     background-image: url(cryptocurious.jpg);
@@ -251,6 +258,10 @@ body {
     text-shadow: 0 0 10px black;
     -moz-box-shadow: 0 0 100px 0px black;
     -webkit-box-shadow: 0 0 100px 0px black;
+    filter: contrast(75%);
+}
+.div_bug_3:hover {
+    filter: contrast(100%);
 }
 .div_bug_4 {
     position: absolute;
@@ -258,7 +269,6 @@ body {
     left: 51vw;
     font-family: 'Franklin Gothic Book';
     /* font-weight: bold; */
-    z-index: 1;
     width: 10vw;
     height: 10vw;
     background-image: url(brandt.jpg);
@@ -275,4 +285,94 @@ body {
     text-shadow: 0 0 10px black;
     -moz-box-shadow: 0 0 100px 0px darkgray;
     -webkit-box-shadow: 0 0 100px 0px darkgray;
+    filter: contrast(75%);
+}
+.div_bug_4:hover {
+    filter: contrast(100%);
+}
+.div_bug_1_GH {
+    width: 2.5vw;
+    height: 2.5vw;
+    background-image: url(octocat.png);
+    background-size: contain;
+    border: solid  rgba(255, 255, 255, 1) 1px;
+    position: absolute;
+    top: 8.4vw;
+    left: 37.45vw;
+    font-family: 'Franklin Gothic Book';
+    border-top-right-radius: 50%;
+    border-bottom-left-radius: 50%;
+    border-top-left-radius: 50%;
+    color: white;
+    text-shadow: 0 0 10px black;
+    -moz-box-shadow: 0 0 100px 0px darkgray;
+    -webkit-box-shadow: 0 0 100px 0px darkgray;
+    filter: invert(10%)
+}
+.div_bug_1_GH:hover {
+    filter: invert(0%)
+}
+.div_bug_1_modal {
+    width: 2.5vw;
+    height: 2.5vw;
+    background-image: url(question.png);
+    background-size: contain;
+    border: solid  rgba(255, 255, 255, 1) 1px;
+    position: absolute;
+    top: 11.4vw;
+    left: 35.45vw;
+    font-family: 'Franklin Gothic Book';
+    border-top-right-radius: 50%;
+    border-bottom-left-radius: 50%;
+    border-top-left-radius: 50%;
+    color: white;
+    text-shadow: 0 0 10px black;
+    -moz-box-shadow: 0 0 100px 0px darkgray;
+    -webkit-box-shadow: 0 0 100px 0px darkgray;
+    filter: invert(10%)
+}
+.div_bug_1_modal:hover {
+    filter: invert(0%)
+}
+
+/* The Modal (background) */
+.modal {
+    display: none;
+    position: absolute;
+    z-index: 1;
+    left: 11vw;
+    top: 10vw;
+    width: 500px;
+    height: 700px;
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content/Box */
+.modal_bug_1_content {
+    background-color: #fefefe;
+    margin: 15% auto; /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    font-family: 'Gill Sans';
+    font-size: 14px;
+    font-weight: lighter;
+    letter-spacing: .05em;
+    width: 80%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button */
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
 }
