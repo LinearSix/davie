@@ -162,16 +162,3 @@
   #group7 .parallax__layer--base {
     background: rgb(255,241,100);
   }
-
-
-  /* misc
-  --------------------------------------------- */
-  .demo__info {
-    position: absolute;
-    z-index:100;
-    bottom: 1vh;
-    top: auto;
-    font-size:80%;
-    text-align:center;
-    width: 100%;
-  }
