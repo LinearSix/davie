@@ -1,31 +1,55 @@
 body {
     background-color: black;
-    align-content: center;
     width: auto;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 h1 {
-    color: white;
+    color: mediumpurple;
+    font-size: 36px;
+    font-weight: bold;
+    -webkit-text-fill-color: mediumpurple; /* Will override color (regardless of order) */
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: white;
+    line-height: 50%;
+}
+h2 {
+    color: mediumpurple;
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 50%;
 }
 h3 {
     color: white;
+    font-size: 22px;
+    font-weight: normal;
+}
+.div_body {
+    width: 100vw;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
 }
 .container {
-    width: 488px;
-    height: 488px;
+    width: 424px;
+    height: 100vh;
+    margin-left: auto;
+    margin-right: auto;
     background-color: black;
     background-image: none;
-    border: none;
+    /* border: solid green 1px; */
 }
-div {
-    width: 120px;
-    height: 120px;
+.div_card {
+    width: 100px;
+    height: 140px;
     float: left;
+    margin: 2px;
     /* background-color: gray; */
     /* border: solid double 2px black; */
-    border: 1px solid gray;
+    border: 1px solid white;
     border-radius: 5px;
     background-image: url(./cardBack.png);
     background-size: cover;
+    background-repeat: no-repeat;
 }
 #reset {
     width: 488px;
