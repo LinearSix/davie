@@ -1,3 +1,94 @@
+/* Contact styles
+  --------------------------------------------- */
+
+.div_contact_container {
+    position: fixed;
+    top: 10px;
+    right: 1vw;
+    width: 550px;
+    height: 120px;
+    z-index: 999;
+    /* float: left; */
+    /* border: solid yellow 1px; */
+}
+.div_contact {
+    position: relative;
+    width: 430px;
+    height: 30px;
+    float: left;
+    text-align: right;
+    font-family: 'Gill Sans';
+    font-size: 16px;
+    font-weight: lighter;
+    letter-spacing: .05em;
+    color: wheat;
+    position: relative;
+    top: 0vw;
+    left: 0px;
+    white-space: nowrap;
+    text-shadow: 0 0 25px black;
+    /* border: solid blue 1px; */
+}
+.div_contact_tear {
+    position: relative;
+    width: 80px;
+    height: 80px;
+    float: left;
+    /* border: solid  green 1px; */
+}
+.div_contact_1 {
+    position: relative;
+    margin: 2px;
+    width: 30px;
+    height: 30px;
+    background-image: url(mail.png);
+    background-size: contain;
+    float: left;
+    border: solid  rgba(255, 255, 255, 1) 1px;
+    border-top-right-radius: 50%;
+    border-top-left-radius: 50%;
+    border-bottom-left-radius: 50%;
+}
+.div_contact_2 {
+    position: relative;
+    margin: 2px;
+    width: 30px;
+    height: 30px;
+    background-image: url(document.png);
+    background-size: contain;
+    float: left;
+    border: solid  rgba(255, 255, 255, 1) 1px;
+    border-top-right-radius: 50%;
+    border-top-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+}
+.div_contact_3 {
+    position: relative;
+    margin: 2px;
+    width: 30px;
+    height: 30px;
+    background-image: url(octocat.png);
+    background-size: contain;
+    float: left;
+    border: solid  rgba(255, 255, 255, 1) 1px;
+    border-top-left-radius: 50%;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+}
+.div_contact_4 {
+    position: relative;
+    margin: 2px;
+    width: 30px;
+    height: 30px;
+    background-image: url(linkedin.png);
+    background-size: contain;
+    float: left;
+    border: solid  rgba(255, 255, 255, 1) 1px;
+    border-top-right-radius: 50%;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+}
+
 /* Parallax base styles
   --------------------------------------------- */
 
@@ -8,6 +99,15 @@
     overflow-y: auto;
     -webkit-perspective: 300px;
     perspective: 300px;
+    border: solid black 1px;
+    scroll-behavior: smooth;
+
+
+    width: 100vw;
+    background: url(rust.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    filter: grayscale(50%);
   }
 
   .parallax__group {
@@ -58,7 +158,7 @@
     position: fixed;
     top: 0;
     left: .5em;
-    z-index: 999;
+    z-index: 998;
     background: rgba(0,0,0,.85);
     color: #fff;
     padding: .5em;
@@ -117,29 +217,124 @@
     z-index: 5; /* slide over group 2 */
   }
   #group1 .parallax__layer--base {
-    background: rgb(102,204,102);
+    height: 100vh;
+    margin-bottom: auto;
+    margin-top: auto;
   }
 
   #group2 {
     z-index: 3; /* slide under groups 1 and 3 */
   }
+
+  /* Group 2
+  --------------------------------------------- */
+
   #group2 .parallax__layer--back {
-    background: rgb(123,210,102);
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.75), rgba(255, 255, 255, 0.75), rgba(0, 0, 0, 0.75));
+    background-blend-mode: multiply, multiply;
   }
+
+  .div_D {
+    height: 100vh;
+    width: 60vw;
+    /* float: left; */
+    position: relative;
+    top: -1.5vw;
+    left: -25vw;
+    line-height: 75vh;
+    margin: 0;
+    padding: 0;
+    text-align: right;
+    /* vertical-align: top; */
+    font-family: 'Cochin';
+    /* font-family: 'Imprint MT Shadow';  */
+    font-size: 50vw;
+    /* font-weight: bold; */
+    color: rgba(255, 240, 200, 0.15);
+    /* text-transform: uppercase; */
+    /* text-shadow: 0px 5px 10px rgba(0, 0, 0, 1); */
+    mix-blend-mode: overlay;
+    /* background: rgba(0, 0, 0, 1); */
+    /* -moz-transform: scale(-1, -1);
+    -webkit-transform: scale(-1, -1);
+    -o-transform: scale(-1, -1);
+    -ms-transform: scale(-1, -1);
+    transform: scale(-1, -1); */
+    border: solid red 1px;
+}
+.div_M {
+    height: 100vh;
+    width: 62vw;
+    position: absolute;
+    top: 22vh;
+    left: 41vw;
+    margin: 0;
+    padding: 0;
+    text-align: left;
+    font-family: 'Cochin';
+    /* font-family: 'Rockwell'; */
+    /* font-family: 'Palatino'; */
+    /* font-family: 'Optima'; */
+    font-size: 50vw;
+    /* font-weight: bolder; */
+    color: rgba(255, 240, 200, 0.15);
+    mix-blend-mode: overlay;
+    /* background: rgba(0, 0, 0, 1); */
+    /* -moz-transform: scale(-1, 1);
+    -webkit-transform: scale(-1, 1);
+    -o-transform: scale(-1, 1);
+    -ms-transform: scale(-1, 1);
+    transform: scale(-1, 1); */
+    /* border: solid green 1px; */
+}
+.div_form {
+    position: absolute;
+    top: 40vh;
+    left: -3vw;
+    margin: 0;
+    padding: 0;
+    font-family: 'Cochin';
+    text-align: center;
+    font-size: 15vw;
+    color: rgba(0, 0, 0, 0.065);
+    /* text-transform: uppercase; */
+    /* text-shadow: 0px 5px 10px rgba(0, 0, 0, 1); */
+    mix-blend-mode: darken;
+    /* background: rgba(0, 0, 0, 1) */
+}
+.div_function {
+    position: absolute;
+    top: 2vh;
+    left: 46vw;
+    margin: 0;
+    padding: 0;
+    font-family: 'Cochin'; 
+    text-align: center;
+    font-size: 16vw;
+    color: rgba(0, 0, 0, 0.065);
+    /* text-transform: uppercase; */
+    /* text-shadow: 0px 5px 10px rgba(0, 0, 0, 1); */
+    mix-blend-mode: darken;
+    /* background: rgba(0, 0, 0, 1) */
+}
+
+/* Group 3
+  --------------------------------------------- */
 
   #group3 {
     z-index: 4; /* slide over group 2 and 4 */
+    background: rgba(0, 214, 252, 0.5);
   }
   #group3 .parallax__layer--base {
-    background: rgb(153,216,101);
+    background: rgba(0, 8, 255, 0.500);
   }
 
   #group4 {
     z-index: 2; /* slide under group 3 and 5 */
+    background: rgba(252, 0, 0, 0.5);
   }
   #group4 .parallax__layer--deep {
-    background: url(rust.jpg);
-    /* background: rgb(184,223,101); */
+    background: none;
   }
 
   #group5 {
