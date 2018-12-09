@@ -20,3 +20,8 @@
 | Brandt
                 | personal
 | personal
+
+### Presence
+
+
+While many developers curse the erratic nature of Cascading Style Sheets, I find myself embricing it as a black art, begging to be deciphered.
