@@ -1827,7 +1827,7 @@ h6 {
     text-align: left;
     position: absolute;
     left: 35vw;
-    top: 53vh;
+    top: 52vh;
     width: 45vw;
     font-size: 12px;
     line-height: 15px;
@@ -1837,7 +1837,7 @@ h6 {
     text-align: left;
     position: absolute;
     left: 35vw;
-    top: 55vh;
+    top: 53vh;
     width: 45vw;
     font-size: 12px;
     line-height: 15px;
@@ -1847,7 +1847,7 @@ h6 {
     text-align: left;
     position: absolute;
     left: 35vw;
-    top: 53vh;
+    top: 52vh;
     width: 45vw;
     font-size: 12px;
     line-height: 15px;
@@ -1857,7 +1857,7 @@ h6 {
     text-align: left;
     position: absolute;
     left: 35vw;
-    top: 53vh;
+    top: 52vh;
     width: 45vw;
     font-size: 12px;
     line-height: 15px;
@@ -1904,28 +1904,28 @@ h6 {
     width: 55vw;
     height: 27vh;
     left: 35vw;
-    top: 24vh;
+    top: 23vh;
   }
   
   .div_screen_shot_3 {
     width: 55vw;
     height: 27vh;
     left: 35vw;
-    top: 26vh;
+    top: 24vh;
   }
   
   .div_screen_shot_4 {
     width: 55vw;
     height: 27vh;
     left: 35vw;
-    top: 24vh;
+    top: 23vh;
   }
 
   .div_screen_shot_5 {
     width: 55vw;
     height: 27vh;
     left: 35vw;
-    top: 24vh;
+    top: 23vh;
   }
 
   .div_screen_shot_6 {
@@ -1952,7 +1952,7 @@ h6 {
   .div_github_2 {
     position: absolute;
     left: 84vw;
-    top: 55vh;
+    top: 54vh;
     width: 25px;
     height: 25px;
   }
@@ -1960,7 +1960,7 @@ h6 {
   .div_github_3 {
     position: absolute;
     left: 84vw;
-    top: 57vh;
+    top: 55vh;
     width: 25px;
     height: 25px;
   }
@@ -1968,7 +1968,7 @@ h6 {
   .div_github_4 {
     position: absolute;
     left: 84vw;
-    top: 55vh;
+    top: 54vh;
     width: 25px;
     height: 25px;
   }
@@ -1976,14 +1976,14 @@ h6 {
   .div_github_5 {
     position: absolute;
     left: 84vw;
-    top: 55vh;
+    top: 54vh;
     width: 25px;
     height: 25px;
   }
 
   .div_presence {
     position: absolute;
-    top: 11vh;
+    top: 13vh;
     left: 35vw;
     margin: 0;
     padding: 0;
@@ -1995,7 +1995,7 @@ h6 {
   
   .div_purpose {
     position: absolute;
-    top: 11vh;
+    top: 13vh;
     left: 35vw;
     margin: 0;
     padding: 0;
@@ -2007,7 +2007,7 @@ h6 {
   
   .div_performance {
     position: absolute;
-    top: 13vh;
+    top: 15vh;
     left: 35vw;
     margin: 0;
     padding: 0;
@@ -2020,7 +2020,7 @@ h6 {
   
   .div_precision {
     position: absolute;
-    top: 11vh;
+    top: 13vh;
     left: 35vw;
     margin: 0;
     padding: 0;
