@@ -1674,108 +1674,102 @@ h6 {
   }
 
   .link_group1 {
-    width: 75px;
-    height: 75px;
-    line-height: 75px;
+    width: 68px;
+    height: 68px;
+    line-height: 68px;
     transform-style: flat;
     position: absolute;
     font-family: 'Gill Sans';
     font-size: 12px;
     color: wheat;
     letter-spacing: .05em;
-    top: 6vh;
+    top: 8vh;
     left: 4.5vw;
     text-align: center;
-    /* 
-    background: rgba(237, 9, 9, 0.482); */
+    /* background: rgba(237, 9, 9, 0.482); */
   }
   
   .link_group2 {
     z-index: 1;
-    width: 75px;
-    height: 75px;
-    line-height: 75px;
+    width: 68px;
+    height: 68px;
+    line-height: 68px;
     transform-style: flat;
     position: absolute;
     font-family: 'Gill Sans';
     font-size: 12px;
     color: wheat;
     letter-spacing: .05em;
-    top: 14vh;
+    top: 17vh;
     left: 4.5vw;
     text-align: center;
-    /* 
-    background: rgba(237, 9, 9, 0.482); */
+    /* background: rgba(237, 9, 9, 0.482); */
   }
   
   .link_group3 {
     z-index: 1;
-    width: 75px;
-    height: 75px;
-    line-height: 75px;
+    width: 68px;
+    height: 68px;
+    line-height: 68px;
     transform-style: flat;
     position: absolute;
     font-family: 'Gill Sans';
     font-size: 12px;
     color: wheat;
     letter-spacing: .05em;
-    top: 22vh;
+    top: 26vh;
     left: 4.5vw;
     text-align: center;
-    /* 
-    background: rgba(237, 9, 9, 0.482); */
+    /* background: rgba(237, 9, 9, 0.482); */
   }
   .link_group4 {
     z-index: 1;
-    width: 75px;
-    height: 75px;
-    line-height: 75px;
+    width: 68px;
+    height: 68px;
+    line-height: 68px;
     transform-style: flat;
     position: absolute;
     font-family: 'Gill Sans';
     font-size: 12px;
     color: wheat;
-    letter-spacing: .05em;
-    top: 30vh;
+    letter-spacing: .0em;
+    top: 35vh;
     left: 4.5vw;
     text-align: center;
-    /* 
-    background: rgba(237, 9, 9, 0.482); */
+    /* background: rgba(237, 9, 9, 0.482); */
   }
   .link_group5 {
     z-index: 1;
-    width: 75px;
-    height: 75px;
-    line-height: 75px;
+    width: 68px;
+    height: 68px;
+    line-height: 68px;
     transform-style: flat;
     position: absolute;
     font-family: 'Gill Sans';
-    font-size: 12px;
+    font-size: 11px;
     color: wheat;
     letter-spacing: .05em;
-    top: 38vh;
+    top: 44vh;
     left: 4.5vw;
     text-align: center;
-    /* 
-    background: rgba(237, 9, 9, 0.482); */
+    /* background: rgba(237, 9, 9, 0.482); */
   }
   
   .link_group6 {
     z-index: 1;
-    width: 75px;
-    height: 75px;
-    line-height: 75px;
+    width: 68px;
+    height: 68px;
+    line-height: 68px;
     transform-style: flat;
     position: absolute;
     font-family: 'Gill Sans';
-    font-size: 12px;
+    font-size: 11px;
     color: wheat;
     letter-spacing: .05em;
-    top: 46vh;
+    top: 53vh;
     left: 4.5vw;
     text-align: center;
-    /* 
-    background: rgba(237, 9, 9, 0.482); */
+    /* background: rgba(237, 9, 9, 0.482); */
   }
 
   .div_contact {
@@ -1812,7 +1806,7 @@ h6 {
   }
 
   h4 {
-    font-size: 11px;
+    font-size: 10px;
   }
 
   h6 {
@@ -1825,7 +1819,7 @@ h6 {
     left: 35vw;
     top: 47vh;
     width: 55vw;
-    font-size: 13px;
+    font-size: 12px;
     line-height: 15px;
   }
   
@@ -1833,9 +1827,9 @@ h6 {
     text-align: left;
     position: absolute;
     left: 35vw;
-    top: 57vh;
+    top: 53vh;
     width: 45vw;
-    font-size: 13px;
+    font-size: 12px;
     line-height: 15px;
   }
   
@@ -1843,9 +1837,9 @@ h6 {
     text-align: left;
     position: absolute;
     left: 35vw;
-    top: 59vh;
+    top: 55vh;
     width: 45vw;
-    font-size: 13px;
+    font-size: 12px;
     line-height: 15px;
   }
   
@@ -1853,9 +1847,9 @@ h6 {
     text-align: left;
     position: absolute;
     left: 35vw;
-    top: 57vh;
+    top: 53vh;
     width: 45vw;
-    font-size: 13px;
+    font-size: 12px;
     line-height: 15px;
   }
   
@@ -1863,9 +1857,9 @@ h6 {
     text-align: left;
     position: absolute;
     left: 35vw;
-    top: 57vh;
+    top: 53vh;
     width: 45vw;
-    font-size: 13px;
+    font-size: 12px;
     line-height: 15px;
   }
   
@@ -1873,9 +1867,9 @@ h6 {
     text-align: left;
     position: absolute;
     left: 67vw;
-    top: 13vh;
+    top: 17vh;
     width: 25vw;
-    font-size: 11px;
+    font-size: 10px;
     line-height: 15px;
   }
   
@@ -1883,9 +1877,9 @@ h6 {
     text-align: right;
     position: absolute;
     left: 33vw;
-    top: 40vh;
+    top: 47vh;
     width: 27vw;
-    font-size: 11px;
+    font-size: 10px;
     line-height: 15px;
   }
   
@@ -1893,43 +1887,43 @@ h6 {
     text-align: left;
     position: absolute;
     left: 67vw;
-    top: 67vh;
+    top: 77vh;
     width: 25vw;
-    font-size: 11px;
+    font-size: 10px;
     line-height: 15px;
   }
   
   .div_screen_shot_1 {
     width: 55vw;
-    height: 30vh;
+    height: 27vh;
     left: 35vw;
-    top: 15vh;
+    top: 18vh;
   }
 
   .div_screen_shot_2 {
     width: 55vw;
-    height: 30vh;
+    height: 27vh;
     left: 35vw;
     top: 24vh;
   }
   
   .div_screen_shot_3 {
     width: 55vw;
-    height: 30vh;
+    height: 27vh;
     left: 35vw;
     top: 26vh;
   }
   
   .div_screen_shot_4 {
     width: 55vw;
-    height: 30vh;
+    height: 27vh;
     left: 35vw;
     top: 24vh;
   }
 
   .div_screen_shot_5 {
     width: 55vw;
-    height: 30vh;
+    height: 27vh;
     left: 35vw;
     top: 24vh;
   }
@@ -1938,27 +1932,27 @@ h6 {
     width: 30vw;
     height: 20vh;
     left: 35vw;
-    top: 13vh;
+    top: 17vh;
   }
   
   .div_screen_shot_7 {
     width: 30vw;
     height: 20vh;
     left: 62vw;
-    top: 40vh;
+    top: 47vh;
   }
   
   .div_screen_shot_8 {
     width: 30vw;
     height: 20vh;
     left: 35vw;
-    top: 67vh;
+    top: 77vh;
   }
 
   .div_github_2 {
     position: absolute;
     left: 84vw;
-    top: 57vh;
+    top: 55vh;
     width: 25px;
     height: 25px;
   }
@@ -1966,7 +1960,7 @@ h6 {
   .div_github_3 {
     position: absolute;
     left: 84vw;
-    top: 59vh;
+    top: 57vh;
     width: 25px;
     height: 25px;
   }
@@ -1974,7 +1968,7 @@ h6 {
   .div_github_4 {
     position: absolute;
     left: 84vw;
-    top: 57vh;
+    top: 55vh;
     width: 25px;
     height: 25px;
   }
@@ -1982,7 +1976,7 @@ h6 {
   .div_github_5 {
     position: absolute;
     left: 84vw;
-    top: 57vh;
+    top: 55vh;
     width: 25px;
     height: 25px;
   }
@@ -2037,12 +2031,12 @@ h6 {
   }
 
   .div_dot_1 {
-    width: 71px;
-    height: 71px;
+    width: 66px;
+    height: 66px;
     padding: 0px;
     position: relative;
     left: 10.5vw;
-    top: 6vh;
+    top: 8vh;
     /* background: linear-gradient(135deg, rgba(237, 206, 155, 0.5), rgba(255, 255, 255, .5) 99%); */
     border-bottom-left-radius: 50%;
     border-bottom-right-radius: 50%;
@@ -2055,12 +2049,12 @@ h6 {
   }
   
   .div_dot_2 {
-    width: 71px;
-    height: 71px;
+    width: 66px;
+    height: 66px;
     padding: 0px;
     position: relative;
     left: 10.5vw;
-    top: 14vh;
+    top: 17vh;
     /* background: linear-gradient(135deg, rgba(165, 232, 214, 0.5), rgba(255, 255, 255, .5) 99%); */
     border-bottom-left-radius: 50%;
     border-bottom-right-radius: 50%;
@@ -2073,12 +2067,12 @@ h6 {
   }
   
   .div_dot_3 {
-    width: 71px;
-    height: 71px;
+    width: 66px;
+    height: 66px;
     padding: 0px;
     position: relative;
     left: 10.5vw;
-    top: 22vh;
+    top: 26vh;
     /* background: linear-gradient(135deg, rgba(196, 164, 228, 0.5), rgba(255, 255, 255, .5) 99%); */
     border-bottom-left-radius: 50%;
     border-bottom-right-radius: 50%;
@@ -2091,12 +2085,12 @@ h6 {
   }
   
   .div_dot_4 {
-    width: 71px;
-    height: 71px;
+    width: 66px;
+    height: 66px;
     padding: 0px;
     position: relative;
     left: 10.5vw;
-    top: 30vh;
+    top: 35vh;
     /* background: linear-gradient(135deg, rgba(0, 0, 0, 0.5), rgba(255, 255, 255, .5) 99%); */
     border-bottom-left-radius: 50%;
     border-bottom-right-radius: 50%;
@@ -2109,12 +2103,12 @@ h6 {
   }
   
   .div_dot_5 {
-    width: 71px;
-    height: 71px;
+    width: 66px;
+    height: 66px;
     padding: 0px;
     position: relative;
     left: 10.5vw;
-    top: 38vh;
+    top: 44vh;
     /* background: linear-gradient(135deg, rgba(0, 0, 255, .5), rgba(255, 255, 255, .5) 99%); */
     border-bottom-left-radius: 50%;
     border-bottom-right-radius: 50%;
@@ -2127,12 +2121,12 @@ h6 {
   }
   
   .div_dot_6 {
-    width: 71px;
-    height: 71px;
+    width: 66px;
+    height: 66px;
     padding: 0px;
     position: relative;
     left: 10.5vw;
-    top: 21vh;
+    top: 28vh;
     /* background: linear-gradient(135deg, rgba(0, 0, 255, .5), rgba(255, 255, 255, .5) 99%); */
     border-bottom-left-radius: 50%;
     border-bottom-right-radius: 50%;
@@ -2145,31 +2139,16 @@ h6 {
   }
   
   .div_dot_7 {
-    width: 35px;
-    height: 35px;
-    padding: 0px;
-    position: relative;
-    left: 44vw;
-    top: 12vh;
-    /* background: linear-gradient(135deg, rgba(138, 138, 138, 0.15), rgba(255, 255, 255, .15) 99%); */
-    border-bottom-left-radius: 50%;
-    border-bottom-right-radius: 50%;
-    border-top-right-radius: 50%;
-    transform: rotate(45deg);
-    -webkit-transform: rotate(45deg);
-    -moz-transform: rotate(45deg);
-    -o-transform: rotate(45deg);
-    color: white;
-    border: solid rgba(62, 56, 45, 0.75) 2px;
+    visibility: hidden;
   }
   
   .div_dot_8 {
-    width: 35px;
-    height: 35px;
+    width: 30px;
+    height: 30px;
     padding: 0px;
     position: relative;
-    left: 7vw;
-    top: 66vh;
+    left: 80vw;
+    top: 46vh;
     /* background: linear-gradient(135deg, rgba(138, 138, 138, 0.15), rgba(255, 255, 255, .15) 99%); */
     border-bottom-left-radius: 50%;
     border-bottom-right-radius: 50%;
@@ -2179,16 +2158,16 @@ h6 {
     -moz-transform: rotate(45deg);
     -o-transform: rotate(45deg);
     color: white;
-    border: solid rgba(62, 56, 45, 0.75) 2px;
+    border: solid rgba(62, 56, 45, 0.5) 2px;
   }
   
   .div_dot_9 {
-    width: 35px;
-    height: 35px;
+    width: 30px;
+    height: 30px;
     padding: 0px;
     position: relative;
     left: 70vw;
-    top: 30vh;
+    top: 65vh;
     /* background: linear-gradient(135deg, rgba(138, 138, 138, 0.15), rgba(255, 255, 255, .15) 99%); */
     border-bottom-left-radius: 50%;
     border-bottom-right-radius: 50%;
@@ -2198,35 +2177,20 @@ h6 {
     -moz-transform: rotate(45deg);
     -o-transform: rotate(45deg);
     color: white;
-    border: solid rgba(62, 56, 45, 0.75) 2px;
+    border: solid rgba(62, 56, 45, 0.5) 2px;
   }
   
   .div_dot_10 {
-    width: 35px;
-    height: 35px;
-    padding: 0px;
-    position: relative;
-    left: 58vw;
-    top: 120vh;
-    /* background: linear-gradient(135deg, rgba(138, 138, 138, 0.15), rgba(255, 255, 255, .15) 99%); */
-    border-bottom-left-radius: 50%;
-    border-bottom-right-radius: 50%;
-    border-top-right-radius: 50%;
-    transform: rotate(45deg);
-    -webkit-transform: rotate(45deg);
-    -moz-transform: rotate(45deg);
-    -o-transform: rotate(45deg);
-    color: white;
-    border: solid rgba(62, 56, 45, 0.75) 2px;
+    visibility: hidden;
   }
   
   .div_dot_11 {
-    width: 35px;
-    height: 35px;
+    width: 30px;
+    height: 30px;
     padding: 0px;
     position: relative;
-    left: 20vw;
-    top: 98vh;
+    left: 26vw;
+    top: 97vh;
     /* background: linear-gradient(135deg, rgba(138, 138, 138, 0.15), rgba(255, 255, 255, .15) 99%); */
     border-bottom-left-radius: 50%;
     border-bottom-right-radius: 50%;
@@ -2236,16 +2200,16 @@ h6 {
     -moz-transform: rotate(45deg);
     -o-transform: rotate(45deg);
     color: white;
-    border: solid rgba(62, 56, 45, 0.75) 2px;
+    border: solid rgba(62, 56, 45, 0.5) 2px;
   }
   
   .div_dot_12 {
-    width: 35px;
-    height: 35px;
+    width: 30px;
+    height: 30px;
     padding: 0px;
     position: relative;
-    left: 84vw;
-    top: 80vh;
+    left: 63vw;
+    top: 82vh;
     /* background: linear-gradient(135deg, rgba(138, 138, 138, 0.15), rgba(255, 255, 255, .15) 99%); */
     border-bottom-left-radius: 50%;
     border-bottom-right-radius: 50%;
@@ -2255,6 +2219,6 @@ h6 {
     -moz-transform: rotate(45deg);
     -o-transform: rotate(45deg);
     color: white;
-    border: solid rgba(62, 56, 45, 0.75) 2px;
+    border: solid rgba(62, 56, 45, 0.5) 2px;
   }
 }
