@@ -1866,9 +1866,9 @@ h6 {
   .div_blurb_6 {
     text-align: left;
     position: absolute;
-    left: 67vw;
+    left: 65vw;
     top: 17vh;
-    width: 25vw;
+    width: 29vw;
     font-size: 10px;
     line-height: 15px;
   }
@@ -1877,8 +1877,8 @@ h6 {
     text-align: right;
     position: absolute;
     left: 33vw;
-    top: 44vh;
-    width: 27vw;
+    top: 45vh;
+    width: 29vw;
     font-size: 10px;
     line-height: 15px;
   }
@@ -1886,9 +1886,9 @@ h6 {
   .div_blurb_8 {
     text-align: left;
     position: absolute;
-    left: 67vw;
+    left: 65vw;
     top: 73vh;
-    width: 25vw;
+    width: 29vw;
     font-size: 10px;
     line-height: 15px;
   }
@@ -1929,24 +1929,24 @@ h6 {
   }
 
   .div_screen_shot_6 {
-    width: 30vw;
+    width: 27vw;
     height: 20vh;
     left: 35vw;
     top: 17vh;
   }
   
   .div_screen_shot_7 {
-    width: 30vw;
+    width: 27vw;
     height: 20vh;
-    left: 62vw;
-    top: 47vh;
+    left: 65vw;
+    top: 45vh;
   }
   
   .div_screen_shot_8 {
-    width: 30vw;
+    width: 27vw;
     height: 20vh;
     left: 35vw;
-    top: 77vh;
+    top: 73vh;
   }
 
   .div_github_2 {
