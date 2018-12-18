@@ -1,3 +1,8 @@
+@font-face {
+  font-family: "Calibri";
+  src: url("Calibri.ttf") format("truetype");
+}
+
 body, html {
   overflow: hidden;
 }
@@ -1643,7 +1648,8 @@ h6 {
     position: absolute;
     left: -50vw;
     z-index: 2;
-    /* border: solid red 1px; */
+    /* 
+    border: solid red 1px; */
   }
   
   .parallax__layer_right--3 {
@@ -1653,7 +1659,18 @@ h6 {
     position: absolute;
     left: -50vw;
     z-index: 2;
-    /* border: solid yellow 1px; */
+    /* 
+    border: solid yellow 1px; */
+  }
+
+  .parallax__layer--final {
+    -webkit-transform: translateZ(-300px) scale(2);
+    transform: translateZ(-300px) scale(2);
+    height: 0vh;
+    width: 25vw;
+    position: absolute;
+    left: -50vw;
+    z-index: 2;
   }
 
   .link_group1 {
@@ -1669,7 +1686,8 @@ h6 {
     top: 6vh;
     left: 4.5vw;
     text-align: center;
-    /* background: rgba(237, 9, 9, 0.482); */
+    /* 
+    background: rgba(237, 9, 9, 0.482); */
   }
   
   .link_group2 {
@@ -1686,7 +1704,8 @@ h6 {
     top: 14vh;
     left: 4.5vw;
     text-align: center;
-    /* background: rgba(237, 9, 9, 0.482); */
+    /* 
+    background: rgba(237, 9, 9, 0.482); */
   }
   
   .link_group3 {
@@ -1703,7 +1722,8 @@ h6 {
     top: 22vh;
     left: 4.5vw;
     text-align: center;
-    /* background: rgba(237, 9, 9, 0.482); */
+    /* 
+    background: rgba(237, 9, 9, 0.482); */
   }
   .link_group4 {
     z-index: 1;
@@ -1719,7 +1739,8 @@ h6 {
     top: 30vh;
     left: 4.5vw;
     text-align: center;
-    /* background: rgba(237, 9, 9, 0.482); */
+    /* 
+    background: rgba(237, 9, 9, 0.482); */
   }
   .link_group5 {
     z-index: 1;
@@ -1735,7 +1756,8 @@ h6 {
     top: 38vh;
     left: 4.5vw;
     text-align: center;
-    /* background: rgba(237, 9, 9, 0.482); */
+    /* 
+    background: rgba(237, 9, 9, 0.482); */
   }
   
   .link_group6 {
@@ -1752,7 +1774,8 @@ h6 {
     top: 46vh;
     left: 4.5vw;
     text-align: center;
-    /* background: rgba(237, 9, 9, 0.482); */
+    /* 
+    background: rgba(237, 9, 9, 0.482); */
   }
 
   .div_contact {
@@ -2109,7 +2132,7 @@ h6 {
     padding: 0px;
     position: relative;
     left: 10.5vw;
-    top: -13vh;
+    top: 21vh;
     /* background: linear-gradient(135deg, rgba(0, 0, 255, .5), rgba(255, 255, 255, .5) 99%); */
     border-bottom-left-radius: 50%;
     border-bottom-right-radius: 50%;
