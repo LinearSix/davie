@@ -40,6 +40,10 @@ a {
   /* background: rgba(237, 9, 9, 0.482); */
 }
 
+.link_group1:hover {
+  filter: brightness(50%);
+}
+
 .link_group2 {
   z-index: 1;
   width: 126px;
@@ -55,6 +59,10 @@ a {
   left: 20vw;
   text-align: center;
   /* background: rgba(237, 9, 9, 0.482); */
+}
+
+.link_group2:hover {
+  filter: brightness(50%);
 }
 
 .link_group3 {
@@ -73,6 +81,11 @@ a {
   text-align: center;
   /* background: rgba(237, 9, 9, 0.482); */
 }
+
+.link_group3:hover {
+  filter: brightness(50%);
+}
+
 .link_group4 {
   z-index: 1;
   width: 126px;
@@ -88,6 +101,10 @@ a {
   left: 50vw;
   text-align: center;
   /* background: rgba(237, 9, 9, 0.482); */
+}
+
+.link_group4:hover {
+  filter: brightness(50%);
 }
 
 .link_group5 {
@@ -107,6 +124,10 @@ a {
   /* background: rgba(237, 9, 9, 0.482); */
 }
 
+.link_group5:hover {
+  filter: brightness(50%);
+}
+
 .link_group6 {
   z-index: 1;
   width: 126px;
@@ -122,6 +143,10 @@ a {
   left: 80vw;
   text-align: center;
   /* background: rgba(237, 9, 9, 0.482); */
+}
+
+.link_group6:hover {
+  filter: brightness(50%);
 }
 
 /* CONTACT STYLES ################################### */
