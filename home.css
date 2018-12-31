@@ -500,7 +500,7 @@ a {
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   font-size: 2vw;
   letter-spacing: .05em;
-  background: url(cryptocurious.jpg);
+  background: url(brandt.jpg);
   background-size: cover;
   border: solid wheat 2px;
   border-radius: .5vw;
@@ -521,7 +521,7 @@ a {
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   font-size: 2vw;
   letter-spacing: .05em;
-  background: url(memory-js.jpg);
+  background: url(brakumo.jpg);
   background-size: cover;
   border: solid wheat 2px;
   border-radius: .5vw;
@@ -542,7 +542,7 @@ a {
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   font-size: 2vw;
   letter-spacing: .05em;
-  background: url(brakumo.jpg);
+  background: url(cryptocurious.jpg);
   background-size: cover;
   border: solid wheat 2px;
   border-radius: .5vw;
@@ -563,7 +563,7 @@ a {
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   font-size: 2vw;
   letter-spacing: .05em;
-  background: url(brandt.jpg);
+  background: url(memory-js.jpg);
   background-size: cover;
   border: solid wheat 2px;
   border-radius: .5vw;
@@ -801,7 +801,7 @@ h6 {
   /* background-blend-mode: multiply, multiply; */
 }
 
-.div_presence {
+.div_precision {
   position: absolute;
   top: 30vh;
   left: 6vw;
@@ -837,7 +837,7 @@ h6 {
   color: rgba(62, 56, 45, 0.85);
 }
 
-.div_precision {
+.div_presence {
   position: absolute;
   top: 31vh;
   left: 48vw;
@@ -1366,7 +1366,7 @@ h6 {
     height: 25px;
   }
 
-  .div_presence {
+  .div_precision {
     position: absolute;
     top: 30vh;
     left: 8vw;
@@ -1402,7 +1402,7 @@ h6 {
     color: rgba(62, 56, 45, 0.85);
   }
   
-  .div_precision {
+  .div_presence {
     position: absolute;
     top: 31vh;
     left: 48vw;
@@ -1981,7 +1981,7 @@ h6 {
     height: 25px;
   }
 
-  .div_presence {
+  .div_precision {
     position: absolute;
     top: 13vh;
     left: 35vw;
@@ -2018,7 +2018,7 @@ h6 {
     color: rgba(62, 56, 45, 0.85);
   }
   
-  .div_precision {
+  .div_presence {
     position: absolute;
     top: 13vh;
     left: 35vw;
