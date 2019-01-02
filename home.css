@@ -41,7 +41,7 @@ a {
 }
 
 .link_group1:hover {
-  filter: brightness(50%);
+  filter: sepia(100%);
 }
 
 .link_group2 {
@@ -62,7 +62,7 @@ a {
 }
 
 .link_group2:hover {
-  filter: brightness(50%);
+  filter: sepia(100%);
 }
 
 .link_group3 {
@@ -83,7 +83,7 @@ a {
 }
 
 .link_group3:hover {
-  filter: brightness(50%);
+  filter: sepia(100%);
 }
 
 .link_group4 {
@@ -104,7 +104,7 @@ a {
 }
 
 .link_group4:hover {
-  filter: brightness(50%);
+  filter: sepia(100%);
 }
 
 .link_group5 {
@@ -125,7 +125,7 @@ a {
 }
 
 .link_group5:hover {
-  filter: brightness(50%);
+  filter: sepia(100%);
 }
 
 .link_group6 {
@@ -146,7 +146,7 @@ a {
 }
 
 .link_group6:hover {
-  filter: brightness(50%);
+  filter: sepia(100%);
 }
 
 /* CONTACT STYLES ################################### */
@@ -508,10 +508,6 @@ a {
   background-size: cover;
   border: solid wheat 2px;
   border-radius: .5vw;
-}
-
-.div_screen_shot_1:hover {
-  filter: brightness(50%);
 }
 
 .div_screen_shot_2 {
