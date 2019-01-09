@@ -1,0 +1,20 @@
+.links {
+ width: 100vw;
+ height: 10vh;
+ background: yellow;
+}
+.link_1 {
+    width: 100vw;
+    height: 90vh;
+    background: orange;
+}
+.link_2 {
+    width: 100vw;
+    height: 90vh;
+    background: greenyellow;
+}
+.link_3 {
+    width: 100vw;
+    height: 90vh;
+    background: pink;
+}
