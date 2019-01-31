@@ -499,8 +499,8 @@ a {
 }
 
 .div_screen_shot_1 {
-  width: 22vw;
-  height: 40vh;
+  width: 20vw;
+  height: 20vw;
   z-index: 1;
   text-align: center;
   position: absolute;
@@ -1306,7 +1306,7 @@ h6 {
   }
   
   .div_screen_shot_1 {
-    width: 40vw;
+    width: 30vh;
     height: 30vh;
     left: 45vw;
     top: 33vh;
@@ -1920,7 +1920,7 @@ h6 {
   }
   
   .div_screen_shot_1 {
-    width: 55vw;
+    width: 27vh;
     height: 27vh;
     left: 35vw;
     top: 18vh;
